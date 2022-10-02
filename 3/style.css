@@ -1,0 +1,26 @@
+h1 {
+    color: deeppink;
+    font-size: 22px;
+}
+ul > li:first-child {
+    color: rgb(30, 54, 210);
+}
+ul > li:last-child {
+    color: rgb(30, 54, 210);
+}
+span {
+    color: deeppink;
+    font-size: 20px;
+}
+strong {
+    font-size: 25px;
+}
+ .S:hover   {
+    font-size: 15px;
+}
+strong {
+    color: rgb(56, 456, 235);
+}
+#eee {
+    color: crimson;
+}
