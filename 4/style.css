@@ -1,0 +1,17 @@
+/* table, td {
+border: 2px solid black;
+border-radius: 15px;
+} */
+table, td{
+    border: 1px solid black;
+}
+td{
+    width: 200px;
+    height: 20px;
+}
+.even > td:nth-child(even) {
+background-color: black;
+}
+.odd > td:nth-child(odd) {
+    background-color: black;
+}
