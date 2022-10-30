@@ -1,0 +1,74 @@
+.wrapper {
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: grid;
+    /* background-color: aquamarine; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:  /* 100px 150px 200px*/  repeat(4, 50px) ;
+    gap: 5px;   /*row-gap: 5px;   column-gap: 5px; */
+     grid-template-areas: 
+     "h h h h   " 
+    "a a n ad "
+    " f f f f  " ;
+
+    /* justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-around; */
+    /* align-content: center; */
+}
+/* .black {
+    
+    background-color:  black;
+color: aliceblue;
+/* grid-area: bl; */
+/* justify-self: center;
+align-self: center; */
+/* }
+ .green {
+    background-color: green;
+    grid-area: gr;
+ }
+.yelow {
+    background-color: yellow;
+    grid-area: ye;
+}
+ .red {
+    background-color: red;
+ }
+.blue {
+    background-color: blue;
+}
+ .purpul {
+    background-color:purple;
+ } */
+.qwe {
+background-color: yellow;
+grid-area: h;
+
+}
+.qwer {
+    background-color: yellow;
+    grid-area: a;
+   
+   
+}
+.qwet {
+    background-color: yellow;
+    grid-area: n;
+    width: 70px;
+    
+    
+}
+.qwey {
+    background-color: yellow;
+    grid-area: ad;
+    width: 70px;
+    
+   
+}
+.qweu {
+    background-color: yellow;
+    grid-area: f;
+   
+}

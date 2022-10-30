@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: ;
+}
+.black {
+    background-color:  black;
+color: aliceblue;
+}
+ .green {
+    background-color: green;
+ }
+.yelow {
+    background-color: yellow;
+}
+ .red {
+    background-color: red;
+ }
+.blue {
+    background-color: blue;
+}
+ .purpul {
+    background-color:purple;
+ }

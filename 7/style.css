@@ -25,3 +25,13 @@ list-style-type: none;
 .grey {
     color: grey;
 }
+.qwe {
+    border-radius: 100px;
+}
+.friends {
+display: flex;
+flex-direction: column;
+}
+.blue {
+    color: blue;
+}
