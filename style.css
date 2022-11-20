@@ -1,55 +1,8 @@
-/* .btn-success{
-    background-color: blue;
-}
-.btn-success:hover{
-    background-color: blueviolet;
-} */
-/* @media screen and (max-width:500px) {
-    .img{
-        width: 300px;
-    }
-}
-@media screen and (max-width:1000px) {
-    .img{
-        width: 500px;
-    }
-}
-@media screen and (max-width:1000px) {
-    .text{
-        color: rgb(48, 165, 42);
-        font-size: 20px;
-    }
-}
-@media screen and (max-width:1000px) {
-    .text{
-        color: yellow;
-        font-size: 25px;
-    }
-} */
-/* *{
-    padding: 10px;
-    margin: 5px;
+body {
+    background-color: rgb(110, 93, 93);
+    height: 100%;
 }
 
-.wrapper{
-    height: 500px;
-    display: flex;
+img{
+    width:35% ;
 }
-.left{
-    height: 400px;
-    width: 60%;
-    background-color: coral
-}
-.right{
-    height: 400px;
-    width: 40%;
-    background-color: rgb(255, 80, 188);
-    color: aliceblue;
-    
-}
-@media screen and (max-width:500px) {
-    .wrapper{
-        display: block;
-        min-width: 400px;
-    }
-} */
