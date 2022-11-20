@@ -1,42 +1,55 @@
-/* *{
-    margin: 0;
-    padding: 0;
+/* .btn-success{
+    background-color: blue;
 }
-
-
-p {
-    background-color: darkmagenta;
-}
-div {
-border: 1px solid black;
-}
-#position-r {
-    position: relative;
-    top: 30px;
-    background-color: aqua;
-    left: 50px;
-opacity: 0.5;
-}
-#position-a {
-    position: absolute;
-    top: 0;
-right: 0;
-background-color: blue;
-}
-#position-f { 
-position: fixed;
-bottom: 50px;
-left: 50px;
-background-color: cornflowerblue;
-}
-.position-s {
-    position: sticky;
-    top: 0;
+.btn-success:hover{
+    background-color: blueviolet;
 } */
-table {
-    border: 1px solid gray;
+/* @media screen and (max-width:500px) {
+    .img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .img{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .text{
+        color: rgb(48, 165, 42);
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .text{
+        color: yellow;
+        font-size: 25px;
+    }
+} */
+/* *{
+    padding: 10px;
+    margin: 5px;
+}
 
+.wrapper{
+    height: 500px;
+    display: flex;
 }
-td {
-    border: 1px solid gray;
+.left{
+    height: 400px;
+    width: 60%;
+    background-color: coral
 }
+.right{
+    height: 400px;
+    width: 40%;
+    background-color: rgb(255, 80, 188);
+    color: aliceblue;
+    
+}
+@media screen and (max-width:500px) {
+    .wrapper{
+        display: block;
+        min-width: 400px;
+    }
+} */
