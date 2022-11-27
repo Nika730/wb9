@@ -1,8 +1,48 @@
 body {
-    background-color: rgb(110, 93, 93);
+    background-color: rgb(65, 57, 57);
     height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Verdana,sans-serif;
+
 }
 
-img{
-    width:35% ;
+
+
+table{
+    border: 1px solid gray;
+    background-color: black;
 }
+
+th{
+    border: 1px solid gray;
+}
+td {
+    border: 1px solid gray;
+}
+.life {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.abza {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.video{
+    width: 50%;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* span{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18%;
+    left: 0;
+} */
