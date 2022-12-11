@@ -47,6 +47,7 @@ td {
 
 #aside {
     margin-top: 40px;
+
     float: right;
     width: 33%;
     font-style: italic;
@@ -55,11 +56,19 @@ td {
     padding: 0 2%;
 }
 
+.my_button {
+    text-align: center;
+}
+
 .qwe{
-    display: block;
+    display: block;}
+
+.row{
+    text-align: center;
 }
 
 form {
+    display: block;
     width: 60%;
     float: left;
     position: relative;
