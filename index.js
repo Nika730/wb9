@@ -1,83 +1,90 @@
-// let a
-// a=5
+// const str = 'some RAnDom String'
+// const str2 = 'string 2 '
+
+// console.log(str.toLowerCase())
+// console.log(str.toUpperCase())
+
+// console.log(str.repeat(3))
+
+// console.log(str.includes('dom'));
+// console.log(str.toLowerCase().includes('dom'));
+
+
+// console.log(str.concat(str2, 'whedje ', 5464));
+
+// console.log(str.startsWith('som'));
+// console.log(str.endsWith('!'));
+
+// console.log(str.replaceAll('m','M'));
+// console.log(str.replaceAll(' ', '*'));
+
+// console.log(str.charAt(5));
+
+// console.log(str.indexOf('m'));
+// console.log(str.lastIndexOf('m'));
+
+// console.log(str.slice(3,6));
+// console.log(str.substr(5,5));
+
+
+// const a = prompt()
+// console.log(a.toUpperCase())
+
+
+// const arr =[4,'cdghvb', null,{a:5},[1,2,3,23,243]]
+// console.log(arr[4][4]);
+
+// const arr = [1,2,3,5,4,8]
+// const arr2=[7,8,9]
+// console.log(arr.concat(arr2, 23232,'asdfg'));
+// const str2 ='qwerty asdfg zxcvb'
+// const arrStr2=str2.split(' ')
+// console.log(arrStr2);
+
+// const arr3=[1,4,5,2,3,5]
+// const strArr3=arr3.join('*')
+// console.log(strArr3);
+
+// const arr4 = [0,1,2,3,4,5,6,7,8,9]
+// console.log(arr4.reverse());
+// console.log(arr4.includes(10));
+
+// arr4.push(10,11,12)
+// console.log(arr4);
+// const pop=arr4.pop()
+// // arr4.pop()
+// console.log(arr4);
+// console.log(pop);
+
+// arr4.unshift(3,2,1)
+// console.log(arr4);
+// const shift=arr4.shift()
+// console.log(shift);
+
+
+// const arr5 = [112,,34,65,7646,767,5]
+// console.log(arr5.sort((a,b) => a-b));
+
+
+// console.log(arr4.slice(4,7));
+// console.log(arr4);
+// console.log('--------');
+// console.log(arr4.splice(4,3));
+// console.log(arr4);
+
+// console.log(arr4.splice(4,3,40,50,60));
+// console.log(arr4);
+
+
+const a = 'KiRa BoRtNiK'
 // console.log(a);
-
-// const b=5
-// console.log(b);
-// console.log(12345678);
-// console.error(121547);
-// alert(a)
-
-//  const userName = 'Kira'
-// console.log ( `Hello, ${userName} ` )
-
-// console.log ( 'strfh thb "fbgb fvg" trgh etgb' )
-
-// const userName = 'Kira'
-// console.log ( `Hello, ${5+8+8*-865} ` )
-
-// let isGrater = 4<1
-// alert(isGrater);
-
-// let a=null
-// console.log(a);
-// a =5
-// console.log(a);
-
-// const bigInt=12375633574448762345356n;
-
-// const pupil = {
-//     class:'11 "A"',
-//     sex:'man',
-//     age: 16,
-//     name: {
-//         firstName:'Kira',
-//         secondName:'Bortnik'
-//     }
-// }
-// console.log(pupil);
-
-// pupil.class=12
-// console.log(pupil);
-// pupil.interest ='reading'
-// console.log(pupil);
-// delete pupil.sex
-// console.log(pupil);
-
-// const a =-8
-// const b = 10
-// console.log(a+b);
+const arr=a.split(' ')
+// console.log(arr);
+arr[0]=arr[0].toLowerCase()
+arr[1]= arr[1].toUpperCase()
+console.log(arr)
+// const new= arr.join(' ');
+// console.log(new);
 
 
-// const a =8
-// const b = 'cdfbh '
-// const c = null
-// const d = undefined
-// const e = 10n
-// const f = true
-// console.log(typeof f);
-
-// const num=5
-// console.log(typeof (num +'hello'));
-// console.log(typeof num +'hello');
-// console.log(typeof String (num));
-// console.log(typeof `${num}`);
-// console.log(typeof num);
-
-// const a=1
-// console.log(1+1);
-
-// const a=prompt()
-// console.log(a+1);
-
-// const str='10a'
-// console.log(typeof str);
-// const str1=Number (str)
-// console.log(str1);
-// console.log(typeof Number(str));
-// console.log(typeof +str);
-// console.log(parseInt (str));
-
-const bool=3564
-console.log(typeof Boolean(bool));
-console.log(typeof );
+// console.log(a.replaceAll('KiRa', 'kira').replaceAll('BoRtNiK', 'BORTNIK'));
