@@ -1,90 +1,95 @@
-// const str = 'some RAnDom String'
-// const str2 = 'string 2 '
+// const age = 18
+// if (age>18) {
+//     console.log('true');
+// } else if (age<18) {
+//     console.log('false');
+// } else {
+//     console.log('=18');
+// } 
 
-// console.log(str.toLowerCase())
-// console.log(str.toUpperCase())
+// >=
+// <=
+// == не строго равно
+// === строго равно
 
-// console.log(str.repeat(3))
+// !=  не строго не равно
+// !== строго не равно
 
-// console.log(str.includes('dom'));
-// console.log(str.toLowerCase().includes('dom'));
+// console.log(1 == '1');
+// console.log(1 === '1');
 
+// const n = 'kira'
+// if (n !== 'kira') {
+//   console.log('yes');
+// } 
 
-// console.log(str.concat(str2, 'whedje ', 5464));
+// % остаток от деления 
+// && и 
+// || или
+// console.log(24836 % 25);
 
-// console.log(str.startsWith('som'));
-// console.log(str.endsWith('!'));
+// const sex = 'woman'
+// const age = 30 
+// const hairColor = 'blue'
+// if (sex === 'man' || age >= 30 && hairColor !== 'blue'){
+//     console.log('u r welcome');
+// } else {
+//     console.log('sorry');
+// }
 
-// console.log(str.replaceAll('m','M'));
-// console.log(str.replaceAll(' ', '*'));
+// const userName = 'lisa'
+// switch (userName) {
+//     case 'mike':
+//         console.log('hello, mike!');
+//         break;
+//     case 'nick':
+//         console.log('hello, nick!');
+//         break;
+//     case 'mary':
+//         console.log('hello, mary!');
+//         break;
+//     default:
+//         console.log('who are you?');
+//         break;
+// }
 
-// console.log(str.charAt(5));
+// let i = 1
+// while (true) {
+//    console.log(i);
+//     i++
+//     // i=i+1
+//     // i+=1
+//     if (i == 10) {
+//         break;
+//     }
+// }
 
-// console.log(str.indexOf('m'));
-// console.log(str.lastIndexOf('m'));
+// let i = 0 
+// do {
+//   console.log(i);
+//        i++
+// } while (i < 5);
 
-// console.log(str.slice(3,6));
-// console.log(str.substr(5,5));
-
-
-// const a = prompt()
-// console.log(a.toUpperCase())
-
-
-// const arr =[4,'cdghvb', null,{a:5},[1,2,3,23,243]]
-// console.log(arr[4][4]);
-
-// const arr = [1,2,3,5,4,8]
-// const arr2=[7,8,9]
-// console.log(arr.concat(arr2, 23232,'asdfg'));
-// const str2 ='qwerty asdfg zxcvb'
-// const arrStr2=str2.split(' ')
-// console.log(arrStr2);
-
-// const arr3=[1,4,5,2,3,5]
-// const strArr3=arr3.join('*')
-// console.log(strArr3);
-
-// const arr4 = [0,1,2,3,4,5,6,7,8,9]
-// console.log(arr4.reverse());
-// console.log(arr4.includes(10));
-
-// arr4.push(10,11,12)
-// console.log(arr4);
-// const pop=arr4.pop()
-// // arr4.pop()
-// console.log(arr4);
-// console.log(pop);
-
-// arr4.unshift(3,2,1)
-// console.log(arr4);
-// const shift=arr4.shift()
-// console.log(shift);
-
-
-// const arr5 = [112,,34,65,7646,767,5]
-// console.log(arr5.sort((a,b) => a-b));
-
-
-// console.log(arr4.slice(4,7));
-// console.log(arr4);
-// console.log('--------');
-// console.log(arr4.splice(4,3));
-// console.log(arr4);
-
-// console.log(arr4.splice(4,3,40,50,60));
-// console.log(arr4);
-
-
-const a = 'KiRa BoRtNiK'
-// console.log(a);
-const arr=a.split(' ')
-// console.log(arr);
-arr[0]=arr[0].toLowerCase()
-arr[1]= arr[1].toUpperCase()
-console.log(arr)
-// const new= arr.join(' ');
-// console.log(new);
+// for (let i = 0; i < 10; i++) {
+//     console.log(i);
+//  if (i % 2 === 0) {
+//     console.log(i);
+//  }
+// }
 
 
-// console.log(a.replaceAll('KiRa', 'kira').replaceAll('BoRtNiK', 'BORTNIK'));
+// const arr = [31,24,5434,532,34,5645,3,2432]
+// for (let i = 0; i < arr.length; i++) {
+ 
+//     // if (arr[i] % 2 === 0 && i % 2 !== 0 ) {
+
+//     //      console.log(arr[i]);
+
+// }
+
+// let sum = 0
+// for (let i = 0; i<arr.length; i++) {
+//     sum = sum + arr[i]
+//     console.log(sum);
+// }
+
