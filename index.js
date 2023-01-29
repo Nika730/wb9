@@ -1,95 +1,129 @@
-// const age = 18
-// if (age>18) {
-//     console.log('true');
-// } else if (age<18) {
-//     console.log('false');
-// } else {
-//     console.log('=18');
-// } 
-
-// >=
-// <=
-// == не строго равно
-// === строго равно
-
-// !=  не строго не равно
-// !== строго не равно
-
-// console.log(1 == '1');
-// console.log(1 === '1');
-
-// const n = 'kira'
-// if (n !== 'kira') {
-//   console.log('yes');
-// } 
-
-// % остаток от деления 
-// && и 
-// || или
-// console.log(24836 % 25);
-
-// const sex = 'woman'
-// const age = 30 
-// const hairColor = 'blue'
-// if (sex === 'man' || age >= 30 && hairColor !== 'blue'){
-//     console.log('u r welcome');
-// } else {
-//     console.log('sorry');
+// const teacher={
+//     name: 'Kira',
+//     age : 15,
+//     sex : 'woman',
+//     job : 'student'
 // }
+// console.log(teacher);
+// const objKeys = Object.keys(obj)
+// console.log(objKeys);
 
-// const userName = 'lisa'
-// switch (userName) {
-//     case 'mike':
-//         console.log('hello, mike!');
-//         break;
-//     case 'nick':
-//         console.log('hello, nick!');
-//         break;
-//     case 'mary':
-//         console.log('hello, mary!');
-//         break;
-//     default:
-//         console.log('who are you?');
-//         break;
+// const objValues = Object.values(obj)
+// console.log(objValues);
+
+// console.log(obj.isMarried);
+// obj.isMarried=true
+// console.log(obj);
+
+// const obj2 = teacher
+// console.log(obj2);
+// // obj2.field = 'qwerty'
+// console.log(teacher);
+// console.log(obj2);
+
+// const obj3={}
+
+// for (  prop in teacher) {
+//     console.log(prop);
+//     obj3[prop] = teacher[prop]
 // }
+// console.log();
+// obj3.lol = 'lol'
+// console.log(teacher);
+// console.log(obj3);
 
-// let i = 1
-// while (true) {
-//    console.log(i);
-//     i++
-//     // i=i+1
-//     // i+=1
-//     if (i == 10) {
-//         break;
+// const obj4= Object.assign(teacher)
+// // obj4.lol = 'lol'
+// console.log('obj4', obj4);
+// const obj5 = Object.freeze(teacher)
+// obj5.lol = 'lol'
+// console.log('obj5',obj5);
+
+// console.log(teacher.hasOwnProperty('sex'));
+
+
+// function sayHello() {
+// console.log('hello!');
+// }
+// sayHello()
+
+// function summ(a,b ) {
+//     console.log(a+b);
+    
+// }
+// summ(4,56)
+// summ(45,546)
+
+// function summ (a,b,c){
+//     console.log(a+b-c);
+// }
+// summ(12,43,3)
+// summ(3,12,43)
+// summ(43,3,12)
+
+// const summ = function (a,b,c) {
+//     console.log(a+b-c);
+// }
+// summ(12,43,3)
+// summ(3,12,43)
+// summ(43,3,12)
+
+// const summ = (a,b,c) => console.log(a+b-c);
+// summ(12,43,3)
+// summ(3,12,43)
+// summ(43,3,12)
+
+// window.onload =(function()) {
+//     console.log('hello');
+// } ()
+
+// function args(a,b,c){
+//     const sum = a+b+c
+// // console.log(sum);
+// // console.log(arguments);
+// }
+// args(1,2,3,4,5,6,7,8,9,)
+
+// function args(a,b,c, ...rest){
+//     const sum = a+b+c
+// console.log(rest);
+// }
+// args(1,2,3,4,5,6,7,8,9,)
+
+// const arr =[ 5,1,2,4,42,2]
+// console.log(...arr);
+
+// function qwe (a,b,c){
+//     const disk = (b*b-4*a*c)
+//     // console.log(disk);
+//     if (disk > 0) {
+//         const x1 = (-b+Math.sqrt(disk))/(2*a)
+//         const x2 = (-b-Math.sqrt(disk))/(2*a)
+//         console.log(x1);
+//         console.log(x2);
+//     }  else if (disk == 0 ) {
+//         const x = (-b-Math.sqrt(disk))/(2*a)
+//         console.log(x);
+//     } else {
+    
+//         console.log('Нет корней');
 //     }
+// }   
+// qwe(-4,28,-49) 
+// qwe(-6,0,54)
+// qwe(1,-1,0)
+// qwe(1,0,-49)
+// qwe(3,-4,94)
+
+// function qwe(str){
+// let counter = 0
+// const arr = [' ','.',',', '!' ]
+   
+//     for (let i = 0; i < str.length; i++ ){
+//         if (str[i] === str[i].toUpperCase()&& !arr.includes(str[i])){
+//             counter++
+//         }
+//     }
+//     console.log(counter);
 // }
-
-// let i = 0 
-// do {
-//   console.log(i);
-//        i++
-// } while (i < 5);
-
-// for (let i = 0; i < 10; i++) {
-//     console.log(i);
-//  if (i % 2 === 0) {
-//     console.log(i);
-//  }
-// }
-
-
-// const arr = [31,24,5434,532,34,5645,3,2432]
-// for (let i = 0; i < arr.length; i++) {
- 
-//     // if (arr[i] % 2 === 0 && i % 2 !== 0 ) {
-
-//     //      console.log(arr[i]);
-
-// }
-
-// let sum = 0
-// for (let i = 0; i<arr.length; i++) {
-//     sum = sum + arr[i]
-//     console.log(sum);
-// }
-
+// qwe('I Love YoU')
