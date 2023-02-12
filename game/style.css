@@ -1,0 +1,18 @@
+img {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(175, 154, 192);
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.game, .game-count {
+    display: none;
+}
