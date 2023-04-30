@@ -1,9 +1,9 @@
 const db_url = 'https://appp-512fb-default-rtdb.firebaseio.com'
 
-function getCar() {
+function getSoft() {
     let arr = []
 
-    return fetch(`${db_url}/car.json`,
+    return fetch(`${db_url}/soft.json`,
     {
     method: 'GET',
     headers: {
@@ -12,11 +12,11 @@ function getCar() {
     })
     .then ( response => response.json())
     .then ( result => {
-        const cars = Object.keys(result).map(key => result[key])
+        const soft = Object.keys(result).map(key => result[key])
 
-        for(let i = 0; i < cars.length; i++) {
+        for(let i = 0; i < soft.length; i++) {
             
-        const div_cars = document.getElementById('cars')
+        const div_soft = document.getElementById('soft')
         
         const card = document.createElement('div')
         card.classList.add('card')
@@ -27,10 +27,10 @@ function getCar() {
         const articls = document.createElement('h4')
         const price = document.createElement('b')
 
-        pic.style.backgroundImage=`url('${cars[i].link}')`  
-        title.innerText = cars[i].title
-        articls.innerText = cars[i].articls
-        price.innerText = `${cars[i].price}$`
+        pic.style.backgroundImage=`url('${soft[i].link}')`  
+        title.innerText = soft[i].title
+        articls.innerText = soft[i].articls
+        price.innerText = `${soft[i].price}$`
 
         card.append(
             pic,
@@ -38,7 +38,7 @@ function getCar() {
             articls,
             price
         )
-        div_cars.append(card)
+        div_soft.append(card)
         }
 
 
@@ -49,5 +49,4 @@ function getCar() {
         console.log(error);
     });
 }
-getCar()
-
+getSoft()

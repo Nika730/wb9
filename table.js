@@ -1,9 +1,9 @@
 const db_url = 'https://appp-512fb-default-rtdb.firebaseio.com'
 
-function getCar() {
+function getTable() {
     let arr = []
 
-    return fetch(`${db_url}/car.json`,
+    return fetch(`${db_url}/table.json`,
     {
     method: 'GET',
     headers: {
@@ -12,11 +12,11 @@ function getCar() {
     })
     .then ( response => response.json())
     .then ( result => {
-        const cars = Object.keys(result).map(key => result[key])
+        const table = Object.keys(result).map(key => result[key])
 
-        for(let i = 0; i < cars.length; i++) {
+        for(let i = 0; i < table.length; i++) {
             
-        const div_cars = document.getElementById('cars')
+        const div_table = document.getElementById('table')
         
         const card = document.createElement('div')
         card.classList.add('card')
@@ -27,10 +27,10 @@ function getCar() {
         const articls = document.createElement('h4')
         const price = document.createElement('b')
 
-        pic.style.backgroundImage=`url('${cars[i].link}')`  
-        title.innerText = cars[i].title
-        articls.innerText = cars[i].articls
-        price.innerText = `${cars[i].price}$`
+        pic.style.backgroundImage=`url('${table[i].link}')`  
+        title.innerText = table[i].title
+        articls.innerText = table[i].articls
+        price.innerText = `${table[i].price}$`
 
         card.append(
             pic,
@@ -38,7 +38,7 @@ function getCar() {
             articls,
             price
         )
-        div_cars.append(card)
+        div_table.append(card)
         }
 
 
@@ -49,5 +49,4 @@ function getCar() {
         console.log(error);
     });
 }
-getCar()
-
+getSoft()
