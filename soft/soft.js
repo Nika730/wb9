@@ -1,9 +1,9 @@
 const db_url = 'https://appp-512fb-default-rtdb.firebaseio.com'
 
-function getTable() {
+function getSoft() {
     let arr = []
 
-    return fetch(`${db_url}/table.json`,
+    return fetch(`${db_url}/soft.json`,
     {
     method: 'GET',
     headers: {
@@ -12,11 +12,11 @@ function getTable() {
     })
     .then ( response => response.json())
     .then ( result => {
-        const table = Object.keys(result).map(key => result[key])
+        const soft = Object.keys(result).map(key => result[key])
 
-        for(let i = 0; i < table.length; i++) {
+        for(let i = 0; i < soft.length; i++) {
             
-        const div_table = document.getElementById('table')
+        const div_soft = document.getElementById('soft')
         
         const card = document.createElement('div')
         card.classList.add('card')
@@ -26,19 +26,24 @@ function getTable() {
         const title = document.createElement('p')
         const articls = document.createElement('h4')
         const price = document.createElement('b')
+        const btn=document.createElement('button')
+        const br=document.createElement('br')
 
-        pic.style.backgroundImage=`url('${table[i].link}')`  
-        title.innerText = table[i].title
-        articls.innerText = table[i].articls
-        price.innerText = `${table[i].price}$`
+        pic.style.backgroundImage=`url('${soft[i].link}')`  
+        title.innerText = soft[i].title
+        articls.innerText = soft[i].articls
+        price.innerText = `${soft[i].price}$`
+        btn.innerHTML = 'Купить'
 
         card.append(
             pic,
             title,
             articls,
-            price
+            price,
+            br,
+            btn
         )
-        div_table.append(card)
+        div_soft.append(card)
         }
 
 

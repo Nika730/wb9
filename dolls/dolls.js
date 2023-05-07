@@ -26,17 +26,22 @@ function getDools() {
             const title = document.createElement('p')
             const articls = document.createElement('h4')
             const price = document.createElement('b')
+            const btn=document.createElement('button')
+            const br=document.createElement('br')
     
             pic.style.backgroundImage=`url('${dolls[i].link}')`  
             title.innerText = dolls[i].title
             articls.innerText = dolls[i].articls
             price.innerText = `${dolls[i].price}$`
+            btn.innerHTML = 'Купить'
     
             card.append(
                 pic,
                 title,
                 articls,
-                price
+                price,
+                br,
+                btn
             )
             div_dolls.append(card)
             }
