@@ -35,6 +35,12 @@ function getCar() {
         price.innerText = `${cars[i].price}$`
         btn.innerHTML = 'Купить'
 
+        btn.onclick = () => {
+            const ls =  JSON.parse(localStorage.getItem('card'))
+            ls.push(cars[i])
+            localStorage.clear()
+            localStorage.setItem('card', JSON.stringify(ls))
+        }
 
         card.append(
             pic,
@@ -46,8 +52,6 @@ function getCar() {
         )
         div_cars.append(card)
         }
-
-
 
     })
 

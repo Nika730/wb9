@@ -34,6 +34,13 @@ function getDools() {
             articls.innerText = dolls[i].articls
             price.innerText = `${dolls[i].price}$`
             btn.innerHTML = 'Купить'
+
+            btn.onclick = () => {
+                const ls =  JSON.parse(localStorage.getItem('card'))
+                ls.push(dolls[i])
+                localStorage.clear()
+                localStorage.setItem('card', JSON.stringify(ls))
+            }
     
             card.append(
                 pic,
